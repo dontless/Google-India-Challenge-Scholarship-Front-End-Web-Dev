@@ -1,0 +1,93 @@
+lessson 14
+==========
+5.Quize: laugh it off 
+--------------------------------------------------------------------------
+
+
+/*
+ * Programming Quiz: Laugh it Off 1 (5-1)
+ */
+
+// your code goes here
+function laugh()
+{
+    return "hahahahahahahahahaha!";
+}
+
+console.log(/* call the laugh function */laugh());
+
+
+
+------------------------------------------------------------------------------
+6.Quize:laugh it off (5-2)
+-----------------------------------
+
+/*
+ * Programming Quiz: Laugh it Off 2 (5-2)
+ *
+ * Write a function called `laugh` with a parameter named `num` that represents the number of "ha"s to return.
+ *
+ * Note:
+ *  - make sure your the final character is an exclamation mark ("!")
+ *  - make sure that your function produces the correct results when it is called multiple times
+ */
+ 
+ function laugh(num)
+ {var string="";
+     for(i=1;i<=num;i++)
+     {
+        string=string+"ha";
+ }
+ stringFinal=string+"!";
+ return stringFinal;
+ }
+console.log(laugh(1));
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------
+QUESTION 1 OF 3
+What does this function "return"?
+
+function sleep() {
+  console.log("I'm sleepy!");
+  return "zzz";
+  return "snore";
+}
+
+sleep();
+===============
+o/p:
+"zzz"
+--------------------------------------------------------------------------------------
+16.quize:make a triangle
+========================
+/*
+ * Programming Quiz: Build A Triangle (5-3)
+ */
+
+// creates a line of * for a given length
+function makeLine(length) {
+    var line = "";
+    for (var j = 1; j <= length; j++) {
+        line += "* ";
+    }
+    return line + "\n";
+}
+
+// your code goes here.  Make sure you call makeLine() in your own code.
+
+//makeline(10);
+// test your code by uncommenting the following line
+function buildTriangle(width){
+  var triangle=""; 
+  for (var i=1; i<=width; i++){
+    triangle += (makeLine(i));
+  }
+  return triangle;
+}
+
+console.log(buildTriangle(10));
+----------------------------------------------------------------
