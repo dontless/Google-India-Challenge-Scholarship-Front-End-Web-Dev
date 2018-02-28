@@ -110,3 +110,19 @@ var laugh = /* finish the function expression */function(num)
 console.log(laugh(3));
 
 --------------------------------------------------------------------------------------------------------
+21.Quize:cry()
+/*
+ * Programming Quiz: Cry (5-5)
+ */
+
+// your code goes here
+//1. Create a variable called cry  
+//2. Set vary cry to equal a named function 
+//3. retun boohoo string 
+//3. Call variable cry
+var cry = function sad(){
+    return "boohoo!";
+}; 
+
+console.log (cry());
+------------------------------------------------------------------------------------------
