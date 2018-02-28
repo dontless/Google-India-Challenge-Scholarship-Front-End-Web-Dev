@@ -91,3 +91,22 @@ function buildTriangle(width){
 
 console.log(buildTriangle(10));
 ----------------------------------------------------------------
+20.QUIZE :Laugh(5-4)
+===================
+/*
+ * Programming Quiz: Laugh (5-4)
+ */
+
+var laugh = /* finish the function expression */function(num)
+{
+    var string ="";
+    for(var i=0;i<num;i++){
+        string+="ha";
+    }
+    return string+"!";
+};
+
+
+console.log(laugh(3));
+
+--------------------------------------------------------------------------------------------------------
