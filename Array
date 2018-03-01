@@ -1,0 +1,40 @@
+14.Quize:Colors of the Rainbow (6-4)
+---------------------
+/*
+ * Programming Quiz: Colors of the Rainbow (6-4)
+ */
+
+var rainbow = ["Red", "Orange", "Blackberry", "Blue"];
+
+// your code goes here
+rainbow.splice(2,1,"Yellow","Green","Purple");
+console.log(rainbow);
+------------------------------------
+
+
+
+15.Quize:Quidditch Cup (6-5)
+================================
+/*
+ * Programming Quiz: Quidditch Cup (6-5)
+ */
+
+// your code goes here
+
+
+function hasEnoughPlayers(array){
+    if(array.length >=7)
+    
+    {
+        return true;
+    }
+    else {
+         return false;
+    }
+   
+}
+
+var team = ["Oliver Wood", "Angelina Johnson","Katie Bell", "Alicia Spinnet", "George Weasley", "Fred Weasley", "Harry Potter"];
+console.log(hasEnoughPlayers(team));
+--------------------------------------------------------------------------------------------------------
+16.Quize:
